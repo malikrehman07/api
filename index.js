@@ -9,7 +9,7 @@ const Auth = require('./router/auth');
 const { PORT = 8000 } = process.env;
 connectDB()
 
-const corsOptions = { origin: 'http://localhost:5173' }
+const corsOptions = { origin: 'https://task-psi-orpin.vercel.app' }
 app.use(cors(corsOptions))
 app.use(express.json()) 
 
