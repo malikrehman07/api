@@ -20,7 +20,7 @@ app.use('/compaigns', Compaigns)
 
 app.get('/', (req, res) => {
     const currentTime = new Date().toISOString()
-    res.send(`App is running on Port${PORT} with current time ${currentTime}`)
+    res.send(`App is running on the Port ${PORT} with current time ${currentTime}`)
 
 })
 app.listen(PORT, () => {
